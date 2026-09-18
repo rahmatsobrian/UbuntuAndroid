@@ -1,0 +1,60 @@
+package dev.ubuntu4a.core.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Ubuntu brand core
+val UbuntuOrange = Color(0xFFE95420)
+val UbuntuOrangeDark = Color(0xFFFF8A65)
+val UbuntuAubergine = Color(0xFF772953)
+val UbuntuAubergineLight = Color(0xFFAC7EA8)
+val UbuntuInk = Color(0xFF2C001E)
+
+// Derived light scheme (Ubuntu-orange seeded tonal palette)
+val PrimaryLight = UbuntuOrange
+val OnPrimaryLight = Color(0xFFFFFFFF)
+val PrimaryContainerLight = Color(0xFFFFDBCF)
+val OnPrimaryContainerLight = Color(0xFF3B0600)
+val SecondaryLight = UbuntuAubergine
+val OnSecondaryLight = Color(0xFFFFFFFF)
+val SecondaryContainerLight = Color(0xFFF2DDE7)
+val OnSecondaryContainerLight = Color(0xFF2C1526)
+val TertiaryLight = Color(0xFF7A5900)
+val OnTertiaryLight = Color(0xFFFFFFFF)
+val TertiaryContainerLight = Color(0xFFFFDF9E)
+val OnTertiaryContainerLight = Color(0xFF261A00)
+val ErrorLight = Color(0xFFBA1A1A)
+val ErrorContainerLight = Color(0xFFFFDAD6)
+val OnErrorContainerLight = Color(0xFF410002)
+val BackgroundLight = Color(0xFFFFFBFF)
+val OnBackgroundLight = Color(0xFF201A1B)
+val SurfaceLight = Color(0xFFFFFBFF)
+val OnSurfaceLight = Color(0xFF201A1B)
+val SurfaceVariantLight = Color(0xFFF5DDDA)
+val OnSurfaceVariantLight = Color(0xFF534341)
+val OutlineLight = Color(0xFF857371)
+val OutlineVariantLight = Color(0xFFD8C2BF)
+
+// Derived dark scheme
+val PrimaryDark = UbuntuOrangeDark
+val OnPrimaryDark = Color(0xFF5B1700)
+val PrimaryContainerDark = Color(0xFF7F2700)
+val OnPrimaryContainerDark = Color(0xFFFFDBCF)
+val SecondaryDark = Color(0xFFE1BDCD)
+val OnSecondaryDark = Color(0xFF442B3C)
+val SecondaryContainerDark = Color(0xFF5D4153)
+val OnSecondaryContainerDark = Color(0xFFFDD9E8)
+val TertiaryDark = Color(0xFFF8BD42)
+val OnTertiaryDark = Color(0xFF412D00)
+val TertiaryContainerDark = Color(0xFF5D4200)
+val OnTertiaryContainerDark = Color(0xFFFFDF9E)
+val ErrorDark = Color(0xFFFFB4AB)
+val ErrorContainerDark = Color(0xFF93000A)
+val OnErrorContainerDark = Color(0xFFFFDAD6)
+val BackgroundDark = Color(0xFF1A1110)
+val OnBackgroundDark = Color(0xFFEFE0DE)
+val SurfaceDark = Color(0xFF1A1110)
+val OnSurfaceDark = Color(0xFFEFE0DE)
+val SurfaceVariantDark = Color(0xFF534341)
+val OnSurfaceVariantDark = Color(0xFFD8C2BF)
+val OutlineDark = Color(0xFFA08D8B)
+val OutlineVariantDark = Color(0xFF534341)
